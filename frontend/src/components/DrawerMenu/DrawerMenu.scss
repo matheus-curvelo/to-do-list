@@ -1,0 +1,17 @@
+.drawer {
+    @media (min-width: 900px) {
+        display: none;
+    }
+
+    .drawer_list {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+
+        .drawer_list__item {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.header {
+    .toolbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .toolbar__buttons {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .toolbar__divider {
+                display: inline-block;
+                margin: 0 8px;
+                height: 24px;
+                width: 1px;
+                background-color: rgba(37, 34, 30, 0.18);
+            }
+        }
+
+        .menu_button {
+            display: none;
+        }
+
+        @media (max-width: 900px) {
+            .toolbar__buttons {
+                display: none;
+            }
+
+            .menu_button {
+                display: flex;
+            }
+        }
+    }
+}
