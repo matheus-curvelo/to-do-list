@@ -1,12 +1,14 @@
 import React from 'react';
-import { Box } from '@mui/material';
+import { Container } from '@mui/material';
 import './Login.scss';
 
 const Login: React.FC = () => {
   return (
-    <Box component="div">
-      Login
-    </Box>
+    <React.Fragment>
+      <Container maxWidth="xl">
+        Login
+      </Container>
+    </React.Fragment>
   );
 };
 

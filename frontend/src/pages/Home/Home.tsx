@@ -1,12 +1,15 @@
-import React from 'react';
-import { Box } from '@mui/material';
-import './Home.scss';
+import React from "react";
+import {Container} from "@mui/material";
+import "./Home.scss";
+import MainBanner from "../../components/MainBanner";
 
 const Home: React.FC = () => {
   return (
-    <Box component="div">
-      Home
-    </Box>
+    <React.Fragment>
+      <Container maxWidth="xl">
+        <MainBanner />
+      </Container>
+    </React.Fragment>
   );
 };
 
