@@ -11,7 +11,7 @@ const Header: React.FC = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
-    <AppBar color="default" position="static" className="header">
+    <AppBar color="default" position="static">
       <Container maxWidth="xl">
         <Toolbar className="toolbar">
           <Logo />
