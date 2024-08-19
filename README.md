@@ -1,5 +1,5 @@
-# Boilerplate React
-Este projeto de to-do list foi criado com as funcionalidades básicas para você começar a organizar suas tarefas de forma simples e eficiente.
+# To-do List
+Este projeto de To-do List foi criado com as funcionalidades básicas para você começar a organizar suas tarefas de forma simples e eficiente.
 
 ## Como usar
 
