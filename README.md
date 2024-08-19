@@ -1,5 +1,5 @@
 # Boilerplate React
-Este é um boilerplate para projetos React configurado com as funcionalidades básicas para começar rapidamente.
+Este projeto de to-do list foi criado com as funcionalidades básicas para você começar a organizar suas tarefas de forma simples e eficiente.
 
 ## Como usar
 
@@ -7,7 +7,7 @@ Este é um boilerplate para projetos React configurado com as funcionalidades b�
 Você pode clonar este repositório com o seguinte comando:
 
 ```bash
-git clone https://github.com/matheus-curvelo/boilerplate-react.git
+git clone https://github.com/matheus-curvelo/to-do-list.git
 
 ```
 
@@ -15,7 +15,7 @@ git clone https://github.com/matheus-curvelo/boilerplate-react.git
 Após clonar o repositório, navegue até o diretório do projeto.
 
 ```bash
-cd boilerplate-react
+cd to-do-list
 
 ```
 
@@ -38,7 +38,7 @@ Isso iniciará o servidor de desenvolvimento. Abra http://localhost:3000 no seu 
 
 ## Dependências
 
-Este boilerplate já vem com as seguintes dependências instaladas:
+Este projeto to-do-list até o momento é composto pelas seguintes dependências:
 
 **React** - Biblioteca JavaScript para construção de interfaces de usuário. <br/>
 **React Router** - Biblioteca para roteamento em aplicações React. <br/>
